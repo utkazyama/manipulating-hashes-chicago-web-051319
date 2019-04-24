@@ -19,7 +19,7 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
           if flavor == "strawberry"
-            binding.pry
+            
           end
         end
       end
@@ -27,5 +27,6 @@ def first_challenge
   end
   print contacts["Freddy Mercury"][:favorite_icecream_flavors]
  end
+ binding.pry
 end
 
