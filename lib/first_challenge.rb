@@ -25,7 +25,7 @@ def first_challenge
       end
     end
   end
-  print contacts["Freddy Mercury"][:favorite_icecream_flavors]
+  contacts
  end
 end
 
